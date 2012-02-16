@@ -1,0 +1,12 @@
+#this is a comment
+#ignore foo.txt file
+foo.txt
+
+#ignore generated pyc files
+*.pyc
+
+#but do not ignore bar.pyc
+!bar.pyc
+
+#ignore all directories
+*.[a]
